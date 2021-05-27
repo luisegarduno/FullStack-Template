@@ -3,7 +3,7 @@
 set -e
 
 echo "---> Setting up correct permissions..."
-sudo chmod +x FermiiRun.sh
+sudo chmod +x ProjectRun.sh
 cd backend/node/execution-tools
 sudo chmod +x wait-for-it.sh
 sudo chmod +x wait-until.sh
