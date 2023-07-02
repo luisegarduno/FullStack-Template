@@ -1,6 +1,5 @@
 import React from 'react';
 import axios from 'axios'
-import { sha256 } from 'js-sha256';
 import { Redirect, Link } from "react-router-dom";
 import { UserRepository } from '../../API/userRepository';
 
@@ -27,12 +26,7 @@ export class LoginPage extends React.Component {
     }
     
     onLogin() {
-        let password = this.state.password
-        password = sha256(this.state.password);
-
-        console.log(this.login.verifyUser({username: this.state.username, password : password}))
-        
-        axios.post(`${this.login.url}/user/login`, {username: this.state.username, password : password})
+        axios.post(`${this.login.url}/user/login`, {username: this.state.username, password : this.state.password})
             .then(response => {
                 if(response.data === 0) {
                     this.invalidLogin()

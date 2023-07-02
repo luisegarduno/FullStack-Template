@@ -7,7 +7,7 @@ export class Home extends React.Component {
         super(props);
         this.username = localStorage['username'];
         this.userID = localStorage['userID'];
-     }
+    }
     
     render() {
         return(<>
@@ -24,13 +24,13 @@ export class Home extends React.Component {
             <div className="p-2 black container-fluid container-md">
                 <form className="mb-1 w-60 mx-auto mb-auto black">
                     <header className = "p-1">
-                       <font color="#47eba9">
-                           <h3 className = "text-center font-weight-bold">Welcome, {this.username}!</h3>
-                       </font>
+                        <font color="#47eba9">
+                            <h3 className = "text-center font-weight-bold">Welcome, {this.username}!</h3>
+                        </font>
                     </header>
                 </form>
             </div>
-         </>
-         );
-     }//end Render
- }//end Home
+            </>
+        );
+    }//end Render
+}//end Home
