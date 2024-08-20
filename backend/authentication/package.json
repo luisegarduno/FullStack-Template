@@ -1,0 +1,32 @@
+{
+  "name": "node-auth-api",
+  "version": "1.0.0",
+  "description": "node auth api for mysql db",
+  "main": "index.js",
+  "dependencies": {
+    "@rama41222/node-logger": "^1.0.1",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql": "^2.18.1",
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "start": "node authServer.js",
+    "dev": "nodemon authServer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisegarduno/FullStack-Template.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luisegarduno/FullStack-Template/issues"
+  },
+  "homepage": "https://github.com/luisegarduno/FullStack-Template#readme"
+}
