@@ -16,4 +16,5 @@ echo "---> Successfully loaded in Project db"
 echo "---> Restarting Database & API containers"
 docker restart fullstack-template-backend-db-1
 docker restart fullstack-template-backend-api-1
+docker restart fullstack-template-backend-auth-1
 docker compose up

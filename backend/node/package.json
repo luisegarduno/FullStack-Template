@@ -22,11 +22,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/USERNAME/PRODUCTNAME.git"
+    "url": "git+https://github.com/luisegarduno/FullStack-Template.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/USERNAME/PRODUCTNAME/issues"
+    "url": "https://github.com/luisegarduno/FullStack-Template/issues"
   },
-  "homepage": "https://github.com/USERNAME/PRODUCTNAME#readme"
+  "homepage": "https://github.com/luisegarduno/FullStack-Template#readme"
 }

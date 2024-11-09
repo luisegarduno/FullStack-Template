@@ -4,7 +4,7 @@
 
 * init.sql
   1. Open `backend/mysql/init.sql`
-  2. In lines 5,6,9,10 & 13 replace `CHANGE-ME`/`Password` with your MySQL password
+  2. In lines 5,6,9 & 13 replace `CHANGE-ME`/`Password` with your MySQL password
 * db_schema.sql
      1. Open `backend/mysql/project_schema.sql`
      2. In lines 1,2,5,7,14 replace `project` with the name of your project/database (all lowercase)
