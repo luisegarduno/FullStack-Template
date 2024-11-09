@@ -2,7 +2,7 @@ CREATE DATABASE IF NOT EXISTS `project`;
 USE `project`;
 
 -- -----------------------------------------------------
--- Table `CHANGE-ME`.`user`
+-- Table `project`.`user`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `project`.`user` (
 	`userID`       INT AUTO_INCREMENT  PRIMARY KEY NOT NULL,
